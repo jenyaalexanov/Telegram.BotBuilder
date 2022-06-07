@@ -1,5 +1,8 @@
 # Telegram.BotBuilder
 
+![Nuget (with prereleases)](https://img.shields.io/nuget/vpre/Telegram.BotBuilder?style=for-the-badge)
+[![GitHub license](https://img.shields.io/github/license/jenyaalexanov/Telegram.BotBuilder?style=for-the-badge)](https://github.com/jenyaalexanov/Telegram.BotBuilder/blob/master/LICENSE)
+
 <img src="./icons/BotBuilder.svg" alt="Telegram BotBuilder Logo" width=200 height=200 />
 
 - Telegram.BotBuilder is a library that allows you to structure your commands, handlers and logic of your program.
