@@ -2,7 +2,7 @@
 
 <img src="./icons/BotBuilder.svg" alt="Telegram BotBuilder Logo" width=200 height=200 />
 
-- Telegram.BotBuilder is a library that will allow you to structure your commands, handlers and logic of your program.
+- Telegram.BotBuilder is a library that allows you to structure your commands, handlers and logic of your program.
 - Based on [`Telegram.Bot.Framework`](https://github.com/TelegramBots/Telegram.Bot.Framework) but modified for the new version of [`Telegram.Bot`](https://github.com/TelegramBots/Telegram.Bot) [`18.0.0-alpha.3`](https://www.nuget.org/packages/Telegram.Bot/18.0.0-alpha.3) 
 - Based on dotnet standard 2.1
 
