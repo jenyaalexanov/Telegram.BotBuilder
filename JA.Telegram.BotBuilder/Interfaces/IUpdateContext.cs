@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using Telegram.Bot.Types;
 
-namespace JA.Telegram.BotBuilder.Interfaces
+namespace Telegram.BotBuilder.Interfaces
 {
     public interface IUpdateContext
     {

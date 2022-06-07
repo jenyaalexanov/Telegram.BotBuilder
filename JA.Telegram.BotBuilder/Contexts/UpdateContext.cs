@@ -1,10 +1,10 @@
 ﻿using System;
 using System.Collections.Concurrent;
 using System.Collections.Generic;
-using JA.Telegram.BotBuilder.Interfaces;
 using Telegram.Bot.Types;
+using Telegram.BotBuilder.Interfaces;
 
-namespace JA.Telegram.BotBuilder.Contexts
+namespace Telegram.BotBuilder.Contexts
 {
     public class UpdateContext : IUpdateContext
     {

@@ -2,7 +2,7 @@
 using System.Threading.Tasks;
 using Telegram.Bot.Requests;
 
-namespace JA.Telegram.BotBuilder.Interfaces
+namespace Telegram.BotBuilder.Interfaces
 {
     public interface IUpdatePollingManager<TBot> where TBot : IBot
     {

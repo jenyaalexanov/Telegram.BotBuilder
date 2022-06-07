@@ -8,10 +8,11 @@
 
   <ItemGroup>
     <PackageReference Include="Swashbuckle.AspNetCore" Version="6.2.3" />
+    <PackageReference Include="Telegram.Bot" Version="18.0.0-alpha.3" />
   </ItemGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\JA.Telegram.BotBuilder\JA.Telegram.BotBuilder.csproj" />
+    <ProjectReference Include="..\JA.Telegram.BotBuilder\Telegram.BotBuilder.csproj" />
   </ItemGroup>
 
 </Project>

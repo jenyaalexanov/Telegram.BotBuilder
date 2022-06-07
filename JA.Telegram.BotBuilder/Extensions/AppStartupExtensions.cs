@@ -1,15 +1,15 @@
 ﻿using System;
 using System.Threading;
 using System.Threading.Tasks;
-using JA.Telegram.BotBuilder.Interfaces;
-using JA.Telegram.BotBuilder.Managers;
-using JA.Telegram.BotBuilder.Models;
-using JA.Telegram.BotBuilder.Providers;
 using Microsoft.AspNetCore.Builder;
 using Microsoft.Extensions.DependencyInjection;
 using Telegram.Bot;
+using Telegram.BotBuilder.Interfaces;
+using Telegram.BotBuilder.Managers;
+using Telegram.BotBuilder.Models;
+using Telegram.BotBuilder.Providers;
 
-namespace JA.Telegram.BotBuilder.Extensions
+namespace Telegram.BotBuilder.Extensions
 {
     public static class AppStartupExtensions
     {

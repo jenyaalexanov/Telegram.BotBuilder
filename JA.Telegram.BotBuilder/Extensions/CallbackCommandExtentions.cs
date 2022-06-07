@@ -1,7 +1,7 @@
 ﻿using System;
 using Telegram.Bot.Types;
 
-namespace JA.Telegram.BotBuilder.Extensions
+namespace Telegram.BotBuilder.Extensions
 {
     public static class CallbackCommandExtensions
     {

@@ -1,11 +1,10 @@
 ﻿using System;
-using JA.Telegram.BotBuilder.Delegates;
-using JA.Telegram.BotBuilder.Interfaces;
-using JA.Telegram.BotBuilder.Middlewares;
-using JA.Telegram.BotBuilder.Models;
 using Telegram.Bot.Polling;
+using Telegram.BotBuilder.Interfaces;
+using Telegram.BotBuilder.Middlewares;
+using Telegram.BotBuilder.Models;
 
-namespace JA.Telegram.BotBuilder.Extensions
+namespace Telegram.BotBuilder.Extensions
 {
     public static class BotBuilderExtensions
     {

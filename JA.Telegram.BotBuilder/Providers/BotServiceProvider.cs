@@ -1,9 +1,9 @@
 ﻿using System;
-using JA.Telegram.BotBuilder.Interfaces;
 using Microsoft.AspNetCore.Builder;
 using Microsoft.Extensions.DependencyInjection;
+using Telegram.BotBuilder.Interfaces;
 
-namespace JA.Telegram.BotBuilder.Providers
+namespace Telegram.BotBuilder.Providers
 {
     public class BotServiceProvider : IBotServiceProvider
     {

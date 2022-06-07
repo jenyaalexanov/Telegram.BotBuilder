@@ -3,9 +3,9 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.0.32014.148
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "JA.Telegram.WebApi", "JA.Telegram.WebApi\JA.Telegram.WebApi.csproj", "{55755F22-1586-434A-A81E-7246087D8D82}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "JA.Telegram.WebApi", "JA.Telegram.WebApi\JA.Telegram.WebApi.csproj", "{55755F22-1586-434A-A81E-7246087D8D82}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "JA.Telegram.BotBuilder", "JA.Telegram.BotBuilder\JA.Telegram.BotBuilder.csproj", "{13ABF113-EE00-4782-B927-11DD5F3675A1}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Telegram.BotBuilder", "JA.Telegram.BotBuilder\Telegram.BotBuilder.csproj", "{13ABF113-EE00-4782-B927-11DD5F3675A1}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

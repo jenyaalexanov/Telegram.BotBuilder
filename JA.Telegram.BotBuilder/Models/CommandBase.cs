@@ -9,7 +9,7 @@ using Telegram.Bot.Polling;
 using Telegram.Bot.Types;
 using Telegram.Bot.Types.Enums;
 
-namespace JA.Telegram.BotBuilder.Models
+namespace Telegram.BotBuilder.Models
 {
     /// <summary>
     /// Base handler implementation for a command such as "/start"

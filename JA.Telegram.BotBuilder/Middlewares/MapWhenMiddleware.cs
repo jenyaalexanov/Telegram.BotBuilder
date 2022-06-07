@@ -1,9 +1,9 @@
 ﻿using System;
 using System.Threading.Tasks;
-using JA.Telegram.BotBuilder.Delegates;
-using JA.Telegram.BotBuilder.Interfaces;
+using Telegram.BotBuilder.Delegates;
+using Telegram.BotBuilder.Interfaces;
 
-namespace JA.Telegram.BotBuilder.Middlewares
+namespace Telegram.BotBuilder.Middlewares
 {
     public class MapWhenMiddleware : IUpdateWhenMiddlewareHandler
     {

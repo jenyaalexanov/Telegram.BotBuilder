@@ -1,12 +1,11 @@
 ﻿using System;
-using System.Collections.Generic;
 using System.Linq;
 using System.Text.RegularExpressions;
-using JA.Telegram.BotBuilder.Interfaces;
 using Telegram.Bot.Types;
 using Telegram.Bot.Types.Enums;
+using Telegram.BotBuilder.Interfaces;
 
-namespace JA.Telegram.BotBuilder.Extensions
+namespace Telegram.BotBuilder.Extensions
 {
     public static class BotExtensions
     {

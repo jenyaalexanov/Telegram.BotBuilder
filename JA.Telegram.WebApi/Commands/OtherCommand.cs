@@ -1,8 +1,8 @@
-﻿using JA.Telegram.BotBuilder.Models;
-using JA.Telegram.WebApi.Constants;
+﻿using JA.Telegram.WebApi.Constants;
 using Telegram.Bot;
 using Telegram.Bot.Types;
 using Telegram.Bot.Types.ReplyMarkups;
+using Telegram.BotBuilder.Models;
 
 namespace JA.Telegram.WebApi.Commands
 {

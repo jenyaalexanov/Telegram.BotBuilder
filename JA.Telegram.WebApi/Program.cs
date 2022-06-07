@@ -1,9 +1,9 @@
-using JA.Telegram.BotBuilder;
-using JA.Telegram.BotBuilder.Extensions;
 using JA.Telegram.WebApi.Bots;
 using JA.Telegram.WebApi.Commands;
 using JA.Telegram.WebApi.Constants;
 using JA.Telegram.WebApi.Handlers;
+using Telegram.BotBuilder;
+using Telegram.BotBuilder.Extensions;
 
 var builder = WebApplication.CreateBuilder(args);
 

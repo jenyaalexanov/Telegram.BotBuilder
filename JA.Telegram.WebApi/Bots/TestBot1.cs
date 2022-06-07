@@ -1,5 +1,5 @@
-﻿using JA.Telegram.BotBuilder.Models;
-using Telegram.Bot;
+﻿using Telegram.Bot;
+using Telegram.BotBuilder.Models;
 
 namespace JA.Telegram.WebApi.Bots
 {

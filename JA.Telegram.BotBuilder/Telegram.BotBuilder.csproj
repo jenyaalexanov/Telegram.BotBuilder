@@ -1,0 +1,38 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netstandard2.1</TargetFramework>
+    <Nullable>enable</Nullable>
+    <PackageId>Telegram.BotBuilder</PackageId>
+    <Authors>Jenya Alexanov</Authors>
+    <Product>Telegram.BotBuilder</Product>
+    <Description>Telegram.BotBuilder is a library that will allow you to structure your commands, handlers and logic of your program.</Description>
+    <Copyright>MIT</Copyright>
+    <RepositoryUrl>https://github.com/jenyaalexanov/Telegram.BotBuilder</RepositoryUrl>
+    <PackageIcon>BotBuilderNuget.png</PackageIcon>
+    <PackageTags>telegram, builder, use, usewhen, middleware, .net core, api, bot</PackageTags>
+    <RootNamespace>Telegram.BotBuilder</RootNamespace>
+    <AssemblyName>Telegram.BotBuilder</AssemblyName>
+    <PackageRequireLicenseAcceptance>False</PackageRequireLicenseAcceptance>
+    <PackageLicenseExpression>MIT</PackageLicenseExpression>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Include="..\icons\BotBuilderNuget.png">
+      <Pack>True</Pack>
+      <PackagePath>\</PackagePath>
+    </None>
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.AspNetCore.Http.Abstractions" Version="2.2.0" />
+    <PackageReference Include="Telegram.Bot" Version="18.0.0-alpha.3" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Reference Include="Microsoft.Extensions.DependencyInjection.Abstractions">
+      <HintPath>..\..\..\..\..\Program Files\dotnet\packs\Microsoft.AspNetCore.App.Ref\6.0.0\ref\net6.0\Microsoft.Extensions.DependencyInjection.Abstractions.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+
+</Project>

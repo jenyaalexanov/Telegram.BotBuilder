@@ -1,10 +1,10 @@
-﻿using JA.Telegram.BotBuilder.Extensions;
-using JA.Telegram.BotBuilder.Interfaces;
-using JA.Telegram.WebApi.Constants;
+﻿using JA.Telegram.WebApi.Constants;
 using Telegram.Bot;
 using Telegram.Bot.Polling;
 using Telegram.Bot.Types;
 using Telegram.Bot.Types.Enums;
+using Telegram.BotBuilder.Extensions;
+using Telegram.BotBuilder.Interfaces;
 
 namespace JA.Telegram.WebApi.Handlers
 {

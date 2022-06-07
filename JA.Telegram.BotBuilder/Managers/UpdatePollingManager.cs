@@ -1,14 +1,14 @@
 ﻿using System;
 using System.Threading;
 using System.Threading.Tasks;
-using JA.Telegram.BotBuilder.Contexts;
-using JA.Telegram.BotBuilder.Delegates;
-using JA.Telegram.BotBuilder.Interfaces;
 using Telegram.Bot;
 using Telegram.Bot.Requests;
 using Telegram.Bot.Types.Enums;
+using Telegram.BotBuilder.Contexts;
+using Telegram.BotBuilder.Delegates;
+using Telegram.BotBuilder.Interfaces;
 
-namespace JA.Telegram.BotBuilder.Managers
+namespace Telegram.BotBuilder.Managers
 {
     public class UpdatePollingManager<TBot> : IUpdatePollingManager<TBot> where TBot : IBot
     {

@@ -1,7 +1,7 @@
-﻿using JA.Telegram.BotBuilder.Interfaces;
-using Telegram.Bot;
+﻿using Telegram.Bot;
+using Telegram.BotBuilder.Interfaces;
 
-namespace JA.Telegram.BotBuilder.Models
+namespace Telegram.BotBuilder.Models
 {
     public abstract class BotBase : IBot
     {

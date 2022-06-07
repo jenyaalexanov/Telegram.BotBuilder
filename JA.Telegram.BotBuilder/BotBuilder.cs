@@ -2,11 +2,11 @@
 using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
-using JA.Telegram.BotBuilder.Delegates;
-using JA.Telegram.BotBuilder.Interfaces;
 using Telegram.Bot.Polling;
+using Telegram.BotBuilder.Delegates;
+using Telegram.BotBuilder.Interfaces;
 
-namespace JA.Telegram.BotBuilder
+namespace Telegram.BotBuilder
 {
     public class BotBuilder : IBotBuilder
     {

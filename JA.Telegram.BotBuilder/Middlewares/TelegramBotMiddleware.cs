@@ -1,15 +1,15 @@
 ﻿using System;
 using System.IO;
 using System.Threading.Tasks;
-using JA.Telegram.BotBuilder.Contexts;
-using JA.Telegram.BotBuilder.Delegates;
-using JA.Telegram.BotBuilder.Models;
 using Microsoft.AspNetCore.Http;
 using Microsoft.Extensions.DependencyInjection;
 using Newtonsoft.Json;
 using Telegram.Bot.Types;
+using Telegram.BotBuilder.Contexts;
+using Telegram.BotBuilder.Delegates;
+using Telegram.BotBuilder.Models;
 
-namespace JA.Telegram.BotBuilder.Middlewares
+namespace Telegram.BotBuilder.Middlewares
 {
     internal class TelegramBotMiddleware<TBot> where TBot : BotBase
     {

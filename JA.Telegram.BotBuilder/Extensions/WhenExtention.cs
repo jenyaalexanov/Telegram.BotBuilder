@@ -1,9 +1,9 @@
 ﻿using System.Linq;
-using JA.Telegram.BotBuilder.Interfaces;
 using Microsoft.AspNetCore.Http;
 using Telegram.Bot.Types.Enums;
+using Telegram.BotBuilder.Interfaces;
 
-namespace JA.Telegram.BotBuilder.Extensions
+namespace Telegram.BotBuilder.Extensions
 {
     public static class When
     {

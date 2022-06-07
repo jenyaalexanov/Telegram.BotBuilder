@@ -1,7 +1,7 @@
 ﻿using System.Threading.Tasks;
-using JA.Telegram.BotBuilder.Delegates;
+using Telegram.BotBuilder.Delegates;
 
-namespace JA.Telegram.BotBuilder.Interfaces
+namespace Telegram.BotBuilder.Interfaces
 {
     public interface IUpdateWhenMiddlewareHandler
     {

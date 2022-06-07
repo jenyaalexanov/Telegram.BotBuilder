@@ -1,9 +1,8 @@
 ﻿using System.Threading;
 using System.Threading.Tasks;
-using JA.Telegram.BotBuilder.Interfaces;
-using Telegram.Bot.Types;
+using Telegram.BotBuilder.Interfaces;
 
-namespace JA.Telegram.BotBuilder.Delegates
+namespace Telegram.BotBuilder.Delegates
 {
     public delegate Task UpdateDelegate(
         IUpdateContext context,

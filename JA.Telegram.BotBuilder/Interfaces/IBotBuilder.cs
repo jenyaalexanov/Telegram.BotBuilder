@@ -1,8 +1,8 @@
 ﻿using System;
-using JA.Telegram.BotBuilder.Delegates;
 using Telegram.Bot.Polling;
+using Telegram.BotBuilder.Delegates;
 
-namespace JA.Telegram.BotBuilder.Interfaces
+namespace Telegram.BotBuilder.Interfaces
 {
     public interface IBotBuilder
     {
