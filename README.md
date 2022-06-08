@@ -1,6 +1,7 @@
 # Telegram.BotBuilder
 
 ![Nuget (with prereleases)](https://img.shields.io/nuget/vpre/Telegram.BotBuilder?style=for-the-badge)
+![Nuget](https://img.shields.io/nuget/dt/Telegram.BotBuilder?style=for-the-badge)
 [![GitHub license](https://img.shields.io/github/license/jenyaalexanov/Telegram.BotBuilder?style=for-the-badge)](https://github.com/jenyaalexanov/Telegram.BotBuilder/blob/master/LICENSE)
 
 <img src="./icons/BotBuilder.svg" alt="Telegram BotBuilder Logo" width=200 height=200 />
