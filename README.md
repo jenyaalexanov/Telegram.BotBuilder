@@ -19,11 +19,11 @@ Add Telegram.BotBuilder to your project:
 
 **Package Manager**
 
-	PM> Install-Package Telegram.BotBuilder -Version 1.0.1
+	PM> Install-Package Telegram.BotBuilder
 	
 **.NET CLI**
 
-	>dotnet add package Telegram.BotBuilder --version 1.0.1
+	>dotnet add package Telegram.BotBuilder
 
 **or something else**
 
