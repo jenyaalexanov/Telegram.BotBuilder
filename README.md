@@ -15,7 +15,21 @@
 
 How do I get started?
 --------------
-First you should inherit your **class** from the base abstract **BotBase** class.
+Add Telegram.BotBuilder to your project:
+
+**Package Manager**
+
+	PM> Install-Package Telegram.BotBuilder -Version 1.0.1
+	
+**.NET CLI**
+
+	>dotnet add package Telegram.BotBuilder --version 1.0.1
+
+**or something else**
+
+--------------
+
+Next you should inherit your **class** from the base abstract **BotBase** class.
 
     public class TestBot1 : BotBase
     {
