@@ -17,12 +17,16 @@
     <AssemblyName>Telegram.BotBuilder</AssemblyName>
     <PackageRequireLicenseAcceptance>False</PackageRequireLicenseAcceptance>
     <PackageLicenseExpression>MIT</PackageLicenseExpression>
-    <Version>1.0.2</Version>
+    <Version>1.0.3</Version>
     <PackageReadmeFile>README.md</PackageReadmeFile>
   </PropertyGroup>
 
   <ItemGroup>
     <None Include="..\icons\BotBuilderNuget.png">
+      <Pack>True</Pack>
+      <PackagePath>\</PackagePath>
+    </None>
+    <None Include="docs\README.md">
       <Pack>True</Pack>
       <PackagePath>\</PackagePath>
     </None>
