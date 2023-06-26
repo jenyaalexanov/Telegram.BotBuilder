@@ -13,7 +13,7 @@ namespace JA.Telegram.WebApi.Commands
             await botClient.SendTextMessageAsync(
                 update.Message.Chat,
                 "*PONG*",
-                ParseMode.Markdown,
+                parseMode: ParseMode.Markdown,
                 replyToMessageId: update.Message.MessageId,
                 replyMarkup: new InlineKeyboardMarkup(
                     InlineKeyboardButton.WithCallbackData("Ping", "PONG")

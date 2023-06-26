@@ -19,11 +19,12 @@ namespace JA.Telegram.WebApi.Handlers
             var replySticker = similarEvilMindSticker ?? evilMindsSet.Stickers.First();
 
             await botClient.SendStickerAsync(
-                msg.Chat,
-                replySticker.FileId,
+                chatId: msg.Chat,
+                InputFile.FromFileId(replySticker.FileId),
                 replyToMessageId: msg.MessageId, 
+                messageThreadId: null, // assuming you're not using threads
                 cancellationToken: cancellationToken
-                );
+            );
         }
 
         public Task HandlePollingErrorAsync(ITelegramBotClient botClient, Exception exception, CancellationToken cancellationToken)
