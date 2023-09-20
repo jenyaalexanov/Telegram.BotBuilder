@@ -1,6 +1,7 @@
 ﻿using System;
 using System.Threading;
 using System.Threading.Tasks;
+using Polly;
 using Telegram.Bot;
 using Telegram.Bot.Requests;
 using Telegram.Bot.Types.Enums;
@@ -41,8 +42,10 @@ namespace Telegram.BotBuilder.Managers
             requestParams = getUpdatesRequest;
             while (!cancellationToken.IsCancellationRequested)
             {
-                var updates = await bot.Client.MakeRequestAsync(requestParams, cancellationToken)
-                    .ConfigureAwait(false);
+                var updates = await Policy.Handle<TimeoutException>()
+                    .WaitAndRetryForeverAsync(x=> TimeSpan.FromSeconds(10))
+                    .ExecuteAsync(async ()=> await bot.Client.MakeRequestAsync(requestParams, cancellationToken)
+                    .ConfigureAwait(false));
                 var updateArray = updates;
 
                 foreach (var u in updateArray)
