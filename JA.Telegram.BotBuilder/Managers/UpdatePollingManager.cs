@@ -42,7 +42,7 @@ namespace Telegram.BotBuilder.Managers
             requestParams = getUpdatesRequest;
             while (!cancellationToken.IsCancellationRequested)
             {
-                var updates = await Policy.Handle<TimeoutException>()
+                var updates = await Policy.Handle<Exception>()
                     .WaitAndRetryForeverAsync(x=> TimeSpan.FromSeconds(10))
                     .ExecuteAsync(async ()=> await bot.Client.MakeRequestAsync(requestParams, cancellationToken)
                     .ConfigureAwait(false));
