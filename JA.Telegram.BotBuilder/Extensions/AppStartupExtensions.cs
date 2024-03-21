@@ -3,6 +3,7 @@ using System.Threading;
 using System.Threading.Tasks;
 using Microsoft.AspNetCore.Builder;
 using Microsoft.Extensions.DependencyInjection;
+using Microsoft.Extensions.Logging;
 using Telegram.Bot;
 using Telegram.BotBuilder.Interfaces;
 using Telegram.BotBuilder.Managers;
@@ -21,13 +22,13 @@ namespace Telegram.BotBuilder.Extensions
         )
             where TBot : BotBase
         {
-            //var logger = app.ApplicationServices.GetRequiredService<ILogger<Startup>>();
+            var logger = app.ApplicationServices.GetRequiredService<ILogger<UpdatePollingManager<TBot>>>();
             if (startAfter == default)
             {
                 startAfter = TimeSpan.FromSeconds(2);
             }
 
-            var updateManager = new UpdatePollingManager<TBot>(botBuilder, new BotServiceProvider(app));
+            var updateManager = new UpdatePollingManager<TBot>(botBuilder, new BotServiceProvider(app), logger);
 
             Task.Delay(startAfter, cancellationToken)
                 .ConfigureAwait(false);
